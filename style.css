@@ -4,21 +4,26 @@ html, body {
     overflow: hidden
 }
 
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.reset{
+    height:50px;
+    margin-top: 20px;
 }
 
 #container{
-    height: 650px;
-    width: 650px;
+    height: 600px;
+    width: 600px;
     display: flex;
-    /* flex-wrap: wrap; */
     flex-direction: column;
     border-top: 1px solid black;
 }
-
 
 .row{
     flex:1;
@@ -33,4 +38,5 @@ body{
     border-left: 1px solid black;
     border-bottom: 1px solid black;
 }
+
 
